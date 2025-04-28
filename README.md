@@ -17,10 +17,26 @@ Open the current file's folder in your system file manager with one click.
   - Command palette
 
 ## Installation
+
+#### Marketplace Installation
 1. Install from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=wtk49.reveal-in-finder)
-2. Or load manually:
-   - Download the `.vsix` file
-   - In VS Code: Extensions → `⋯` → "Install from VSIX"
+
+#### Manual Installation from Source
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/wtk49/reveal-in-finder.git
+   cd reveal-in-finder
+   ```
+2. Build the extension package:
+    ```bash
+    npm install
+    npm run package
+    ```
+3. Install in VS Code:
+  - Open VS Code
+  - Go to Extensions (Ctrl+Shift+X/Cmd+Shift+X)
+  - Click the ⋯ menu → "Install from VSIX"
+  - Select the generated .vsix file from the project root
 
 ## Usage
 Click the folder icon in the editor toolbar or:
