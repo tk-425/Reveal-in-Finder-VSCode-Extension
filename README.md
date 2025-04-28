@@ -33,10 +33,10 @@ Open the current file's folder in your system file manager with one click.
     npm run package
     ```
 3. Install in VS Code:
-  - Open VS Code
-  - Go to Extensions (Ctrl+Shift+X/Cmd+Shift+X)
-  - Click the ⋯ menu → "Install from VSIX"
-  - Select the generated .vsix file from the project root
+     - Open VS Code
+     - Go to Extensions (Ctrl+Shift+X/Cmd+Shift+X)
+     - Click the ⋯ menu → "Install from VSIX"
+     - Select the generated .vsix file from the project root
 
 ## Usage
 Click the folder icon in the editor toolbar or:
