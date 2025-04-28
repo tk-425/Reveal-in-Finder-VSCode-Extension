@@ -6,29 +6,17 @@
   "engines": {
     "vscode": "^1.99.0"
   },
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "onFileSystem:file"
-  ],
+  "categories": ["Other"],
+  "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "reveal-in-finder.openFilePath",
-        "title": "RIF: Open Current File Path",
-        "icon": "$(folder-opened)"
+        "title": "RIF: Open Current File Path"
       }
     ],
     "menus": {
-      "editor/title": [
-        {
-          "command": "reveal-in-finder.openFilePath",
-          "group": "navigation@1",
-          "icon": "$(folder-opened)"
-        }
-      ],
       "explorer/context": [
         {
           "command": "reveal-in-finder.openFilePath",
