@@ -15,7 +15,7 @@
     "mac",
     "linux"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.99.0"
   },
@@ -26,6 +26,7 @@
     "onFileSystem:file"
   ],
   "main": "./dist/extension.js",
+  "icon": "images/icon.png",
   "contributes": {
     "commands": [
       {
