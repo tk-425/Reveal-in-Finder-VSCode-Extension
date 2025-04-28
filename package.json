@@ -1,7 +1,16 @@
 {
   "name": "reveal-in-finder",
-  "displayName": "reveal-in-finder",
-  "description": "",
+  "displayName": "Reveal-in-Finder",
+  "description": "Open containing folder in system file manager (Finder/Explorer/Nautilus)",
+  "publisher": "wtk49",
+  "keywords": [
+    "finder",
+    "explorer",
+    "file manager",
+    "windows",
+    "mac",
+    "linux"
+  ],
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.99.0"

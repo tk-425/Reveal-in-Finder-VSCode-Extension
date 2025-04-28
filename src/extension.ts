@@ -15,11 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
           return;
         }
 
-        // Extract the directory path
-        const dirPath = path.dirname(filePath);
-
-        // Open the directory in Finder
-        childProcess.execSync(`open "${dirPath}"`);
+        await revealInFinderManager(filePath);
       } catch (error) {
         vscode.window.showErrorMessage(
           `Failed to open Finder: ${
@@ -31,6 +27,23 @@ export function activate(context: vscode.ExtensionContext) {
   );
 
   context.subscriptions.push(disposable);
+}
+
+async function revealInFinderManager(filePath: string) {
+  const platform = process.platform;
+  const dirPath = path.dirname(filePath);
+
+  switch (platform) {
+    case 'darwin':
+      childProcess.execSync(`open "${dirPath}"`);
+      break;
+    case 'win32':
+      childProcess.execSync(`explorer /select,"${filePath}"`);
+      break;
+    case 'linux':
+      childProcess.execSync(`xdg-open "${dirPath}"`);
+      break;
+  }
 }
 
 // Get the file path from right-click, active editor, or picker
