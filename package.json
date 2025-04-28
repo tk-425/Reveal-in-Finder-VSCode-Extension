@@ -3,6 +3,10 @@
   "displayName": "Reveal-in-Finder",
   "description": "Open containing folder in system file manager (Finder/Explorer/Nautilus)",
   "publisher": "wtk49",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tk-425/Reveal-in-Finder-VSCode-Extension"
+  },
   "keywords": [
     "finder",
     "explorer",
@@ -59,7 +63,8 @@
     "pretest": "npm run compile-tests && npm run compile && npm run lint",
     "check-types": "tsc --noEmit",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "pkg": "vsce package"
   },
   "devDependencies": {
     "@types/vscode": "^1.99.0",
