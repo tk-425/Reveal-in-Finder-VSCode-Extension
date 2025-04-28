@@ -17,7 +17,7 @@ Open the current file's folder in your system file manager with one click.
   - Command palette
 
 ## Installation
-1. Install from [VS Code Marketplace]([LINK_HERE](https://marketplace.visualstudio.com/items?itemName=wtk49.reveal-in-finder))
+1. Install from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=wtk49.reveal-in-finder)
 2. Or load manually:
    - Download the `.vsix` file
    - In VS Code: Extensions → `⋯` → "Install from VSIX"
