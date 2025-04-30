@@ -15,7 +15,7 @@
     "mac",
     "linux"
   ],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.99.0"
   },
