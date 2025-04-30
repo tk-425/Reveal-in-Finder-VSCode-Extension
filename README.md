@@ -14,12 +14,15 @@ Open the current file's folder in your system file manager with one click.
   - **Windows** (File Explorer)
   - **Linux** (Default file manager)
 - Multiple access methods:
-
-
+  
   Toolbar icon
+
+
     ![Toolbar icon](https://github.com/tk-425/Reveal-in-Finder-VSCode-Extension/blob/main/images/button.png)
 
   Command palette
+
+  
     ![Command palette](https://github.com/tk-425/Reveal-in-Finder-VSCode-Extension/blob/main/images/command.png)
 
 ## Installation
